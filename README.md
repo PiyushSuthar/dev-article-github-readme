@@ -26,9 +26,9 @@
 
 You may just copy-paste the markdown below.
 
-Make sure to change `?username=` value and `https://dev.to/piyushsuthar` to your dev.to username.
+Make sure to change `?username=` value and `https://dev.to/piyush` to your dev.to username.
 ```md
-[![Latest Dev.to](https://latest-devto-post.vercel.app/api?username=piyushsuthar)](https://dev.to/piyushsuthar)
+[![Latest Dev.to](https://latest-devto-post.vercel.app/api?username=piyush)](https://dev.to/piyush)
 ```
 > [View Demo](#latest-devto-post)
 
@@ -42,31 +42,31 @@ You just need to change `&slug=` value to the slug of your dev.to article.
 > ex. https://dev.to/:username/:slug
 
 ```md
-[![Latest Dev.to](https://latest-devto-post.vercel.app/api?username=piyushsuthar&slug=my-instagram-bot-that-posts-covid-19-data-4p05)](https://dev.to/piyushsuthar/my-instagram-bot-that-posts-covid-19-data-4p05)
+[![Latest Dev.to](https://latest-devto-post.vercel.app/api?username=piyush&slug=my-instagram-bot-that-posts-covid-19-data-4p05)](https://dev.to/piyush/my-instagram-bot-that-posts-covid-19-data-4p05)
 ```
 > [View Demo](#specific-devto-post)
 
 # Demo 💎
 
 ### Latest Dev.to Post
-[![Latest Dev.to](https://latest-devto-post.vercel.app/api?username=piyushsuthar)](https://dev.to/piyushsuthar)
+[![Latest Dev.to](https://latest-devto-post.vercel.app/api?username=piyush)](https://dev.to/piyush)
 <details>
   <summary>View Markdown</summary>
   
   ```md
-[![Latest Dev.to](https://latest-devto-post.vercel.app/api?username=piyushsuthar)](https://dev.to/piyushsuthar)
+[![Latest Dev.to](https://latest-devto-post.vercel.app/api?username=piyush)](https://dev.to/piyush)
 ```
 
 </details>
 
 ### Specific Dev.to Post
-[![Latest Dev.to](https://latest-devto-post.vercel.app/api?username=piyushsuthar&slug=my-instagram-bot-that-posts-covid-19-data-4p05)](https://dev.to/piyushsuthar/my-instagram-bot-that-posts-covid-19-data-4p05)
+[![Latest Dev.to](https://latest-devto-post.vercel.app/api?username=piyush&slug=my-instagram-bot-that-posts-covid-19-data-4p05)](https://dev.to/piyushsuthar/my-instagram-bot-that-posts-covid-19-data-4p05)
 
 <details>
   <summary>View Markdown</summary>
   
 ```md
-[![Latest Dev.to](https://latest-devto-post.vercel.app/api?username=piyushsuthar&slug=my-instagram-bot-that-posts-covid-19-data-4p05)](https://dev.to/piyushsuthar/my-instagram-bot-that-posts-covid-19-data-4p05)
+[![Latest Dev.to](https://latest-devto-post.vercel.app/api?username=piyush&slug=my-instagram-bot-that-posts-covid-19-data-4p05)](https://dev.to/piyushsuthar/my-instagram-bot-that-posts-covid-19-data-4p05)
 ```
 
 </details>
