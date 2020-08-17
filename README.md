@@ -88,6 +88,10 @@ Feel free to check [issues](https://github.com/PiyushSuthar/dev-article-github-r
 # Show you support 🌈
 Give a ⭐️ if this project helped you!
 
+### Spread The Word 🕊
+
+[![Twitter](https://img.shields.io/twitter/url?color=%231DA1F2&logo=twitter&style=for-the-badge&url=https%3A%2F%2Fgithub.com%2FPiyushSuthar%2Fdev-article-github-readme)](https://twitter.com/intent/tweet?text=Wow:&url=https%3A%2F%2Fgithub.com%2FPiyushSuthar%2Fdev-article-github-readme)
+[![facebook](https://img.shields.io/badge/FACEBOOK--%231778F2?style=for-the-badge&logo=facebook&logoColor=white)](https://www.facebook.com/sharer.php?u=https://github.com/PiyushSuthar/dev-article-github-readme)
 ---
 
 Made with ❤ and Javascript.
