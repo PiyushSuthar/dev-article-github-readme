@@ -14,6 +14,7 @@ module.exports = async (req, res) => {
         res.send(renderCard(data))
     } catch (err) {
         res.setHeader("Content-Type", "image/svg+xml")
-        res.send(renderErr())
+        res.setHeader("Cache-Control", `public, max-age=1800`);
+res.send(renderErr())
     }
 }
