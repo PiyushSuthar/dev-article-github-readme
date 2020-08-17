@@ -1,5 +1,6 @@
-<p>
-  <h1 align="center">🦄 Dev.to Article Github Readme</h1>
+<p align="center">
+  <img align="center" width="150" src="https://cdn.statically.io/gh/PiyushSuthar/dev-article-github-readme/0627dff5/logo.png"/>
+  <h1 align="center">Dev.to Article Github Readme</h1>
   <p align="center">Add Your Latest <a target="_blank" href="https://dev.to">Dev.to</a> Article To Your GitHub Profile Readme🔥</p>
 </p>
 
