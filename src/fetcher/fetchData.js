@@ -1,18 +1,20 @@
 const axios = require('axios').default
+const fetch = require('node-fetch')
 const { imageToBase64, parseDate } = require('../utils')
 
 /**
  * @param {String} username Dev.to Username 
  */
 const fetchData = async (username,slug) => {
-    var response
     if (slug !== undefined) {
-        response = await (await axios.get(`https://dev.to/api/articles/${username}/${slug}`)).data
+        const response = await fetch(`https://dev.to/api/articles/${username}/${slug}`)
+        const data = await response.json()
+        return await parseData(data)
     }else{
-        response = await (await axios.get(`https://dev.to/api/articles?username=${username}`)).data[0]
+        const response = await fetch(`https://dev.to/api/articles?username=${username}`)
+        const data = await response.json()
+        return await parseData(data[0])
     }
-    const data = await response
-    return await parseData(data)
 }
 
 /**
