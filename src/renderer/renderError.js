@@ -1,5 +1,8 @@
-
-const renderErr = () => {
+/**
+ * @param {String} title Title of the Err Card.
+ * @param {String} subtitle Subtitle of the Err card.
+ */
+const renderErr = (title, subtitle) => {
 
     const Card = `<svg width="400" height="180" fill="none" xmlns="http://www.w3.org/2000/svg">
     <foreignObject width="100%" height="100%">
@@ -50,9 +53,9 @@ const renderErr = () => {
       </style>
       <div class="container">
         <div class="title">
-          <h1>404 🚧</h1>
+          <h1>${title}</h1>
         </div>
-        <h5 style="font-weight:400; margin-top:5px;">Can't find it...</h5>
+        <h5 style="font-weight:400; margin-top:5px;">${subtitle}</h5>
       </div>
         </div></foreignObject></svg>`
         return Card
