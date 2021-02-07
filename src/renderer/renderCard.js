@@ -44,6 +44,7 @@ const renderCard = (data) => {
         background-repeat: no-repeat;
         background-size: 60px;
         background-position: 95% 90%;
+        background-color: #ffffff;
         }
         .title {
           font-size: 12px;
